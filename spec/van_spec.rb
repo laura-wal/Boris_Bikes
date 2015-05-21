@@ -16,7 +16,7 @@ describe Van do
 
     expect(van.bike_count).to eq 0
 
-    van.dock(bike)
+    van.load(bike)
 
     expect(van.bike_count).to eq 1
   end
